@@ -46,40 +46,6 @@ const ll infl=0x3f3f3f3f3f3f3f3fLL;
 const int infi=0x3f3f3f3f;
 const ll mod = 1e9+7;
  
-void print_mat(int n,int m,vi &a)
-{
-	fi(i,n)
-	{
-		fi(j,m)
-		{
-			cout<<a[m*i+j]<<" ";
-			
-		}
-		cout<<el;	
-		
-	}
-}
-
-void print_vec(vi &a)
-{
-	fi(i,a.size())
-	{
-		cout<<a[i]<<" ";
-	}
-} 
-
-/*void print_dptable(int m ,int n,bool dp[][])
-{
-    fe(i,0,m)
-    {
-        fe(j,0,n)
-        {
-            cout<<dp[i][j]<<"  ";
-        }
-        cout<<el;
-    }
-}*/
-
 bool subset(vi se,int sum,int n)
 {
     int m,c,k,p,s;
@@ -102,7 +68,7 @@ bool subset(vi se,int sum,int n)
             }
         }
     }
-   // print_dptable(n,sum,dp);
+ 
     
     //printing the dp table
     fe(i,0,n)
